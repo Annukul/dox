@@ -1,7 +1,8 @@
 import "./App.css"
+import { Routers } from "./router/router"
 
 function App() {
-  return <div className="App">Dox App</div>
+  return <Routers />
 }
 
 export default App
