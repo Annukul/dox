@@ -40,7 +40,7 @@ export const UserAuthForm = ({ className, ...props }: UserAuthFormProps) => {
               disabled={isLoading}
             />
           </div>
-          <Button disabled={isLoading}>
+          <Button variant="dark" disabled={isLoading}>
             {isLoading && <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />}
             Sign In with Email
           </Button>
