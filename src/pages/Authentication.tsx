@@ -11,7 +11,7 @@ export const metadata = {
 export const Authentication = () => {
   const handleSigninWithGithub = () => {
     const authUrl =
-      "https://github.com/login/oauth/authorize?client_id=ae428d1eef36e06da413&redirect_uri=http://localhost:3000/oauth/github/callback&scope=read:user&state=bla"
+      "https://github.com/login/oauth/authorize?client_id=ae428d1eef36e06da413&redirect_uri=https://dox01.vercel.app/oauth/github/callback&scope=read:user&state=bla"
 
     window.location.href = authUrl
   }
